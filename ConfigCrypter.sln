@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30309.148
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigCrypter.Tests", "ConfigCrypter.Tests\ConfigCrypter.Tests.csproj", "{BD01DA11-CEEB-4B80-A0E7-6E45AAAE2062}"
 EndProject
@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigCrypter.Console", "Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigCrypter", "ConfigCrypter\ConfigCrypter.csproj", "{AE7941FB-9A0E-4A6A-873B-A3391A3BEF7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.WebApp", "Example.WebApp\Example.WebApp.csproj", "{88CE2CCB-5A74-4400-8B00-04B1E10DE540}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.WebApp", "Example.WebApp\Example.WebApp.csproj", "{88CE2CCB-5A74-4400-8B00-04B1E10DE540}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSACrypter.Console", "RSACrypter.Console\RSACrypter.Console.csproj", "{66C09221-3B4F-4271-8004-A4EB5CC772F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{88CE2CCB-5A74-4400-8B00-04B1E10DE540}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88CE2CCB-5A74-4400-8B00-04B1E10DE540}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88CE2CCB-5A74-4400-8B00-04B1E10DE540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C09221-3B4F-4271-8004-A4EB5CC772F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C09221-3B4F-4271-8004-A4EB5CC772F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C09221-3B4F-4271-8004-A4EB5CC772F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C09221-3B4F-4271-8004-A4EB5CC772F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
